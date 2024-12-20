@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IBFC",
+  title: "IDFC BANK",
   description: "A Modern Banking Platform",
   icons:{
     icon:'/icons/logo.svg'
