@@ -31,7 +31,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                     />
                 </SheetTrigger>
                 <SheetContent side="left" className="border-none bg-white">
-                    <Link href="/" className='cursor-pointer items-center gap-1 px-4'>
+                    <Link href="/" className='cursor-pointer flex items-center gap-1 px-4'>
                         <Image
                             src="/icons/logo.svg"
                             width={34}
@@ -39,7 +39,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                             alt="IDFC logo"
                         />
                         <h1 className='text-26 font-ibm-plex-sherrif font-bold text-black-1'>
-                            IDFC
+                            IDFC BANK
                         </h1>
                     </Link>
                     <div className="mobilenav-sheet">
